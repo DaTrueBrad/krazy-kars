@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 65px;
+  width: 100vw;
+  background-color: #368f8b;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 32px;
+}
+
+#add-button {
+  height: 40px;
+  min-width: 40px;
+  padding: 0px;
+  background-color: orange;
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+#site-title {
+  color: orange;
+  font-style: italic;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  height: calc(100vh - 65px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login-container {
+  border-radius: 8px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.6);
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: #368f8b;
+  /* height: 500px;
+  width: 800px; */
+  gap: 8px;
+}
+
+input {
+  height: 30px;
+  width: 250px;
+  font-size: 22px;
+  border: none;
+  border-radius: 4px;
+  padding: 2px;
+}
+
+button {
+  height: 30px;
+  min-width: 100px;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 0px 4px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.kar-card {
+  width: 300px;
+  list-style: none;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.kar-img {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  border-radius: 4px;
+}
+
+.kar-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.kar-card:hover {
+  padding: 8px;
+  background-color: #368f8b;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+#kar-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
